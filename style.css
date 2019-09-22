@@ -34,9 +34,13 @@ body{
     padding-top:25ps;
 }
   .wrapper {
-      margin: 0% auto;
+      margin: auto;
       width: 960px;
     background-color: #fff;
+    padding: all;
+    height: auto;
+    
+
     
 
 
@@ -45,13 +49,13 @@ body{
 nav{
     position: center;
     padding: 10px 20px 10px 10px;
-    text-align: right;
+    text-align: center;
     z-index: 1;
     background: white;
     margin: 0 auto;
     width: calc(100% - 60px);
-    float: right;
-    padding: 8px
+    float: all;
+    padding: 10px
     
 }
 li {
@@ -82,17 +86,22 @@ h1{
     float: left;
     text-transform: uppercase;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     text-align: left;
-    padding: 2%;
+    padding: .5;
     background-color: #4aaaa5;
+    height: 40px;
+
 }
 
 p.normal{
     font-family: Arial, Helvetica, sans-serif;
 }
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font color: black;
+p.wrapper{
+    font-family: Arial, Helvetica, sans-serif
+}
+p{
+    color: gray;
 
+    
 }
