@@ -37,6 +37,8 @@ body{
       margin: 0% auto;
       width: 960px;
     background-color: #fff;
+    
+
 
   }
 
@@ -48,8 +50,28 @@ nav{
     background: white;
     margin: 0 auto;
     width: calc(100% - 60px);
+    float: right;
+    padding: 8px
+    
+}
+li {
+    float: right;
+}
+li a {
+    display:block;
+    text-align: center;
+    padding: 14px 16px;
+    color: gray;
+
 
 }
+ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        }
+        
 h1{
     color:#4aaaa5;
 
@@ -64,6 +86,13 @@ h1{
     text-align: left;
     padding: 2%;
     background-color: #4aaaa5;
+}
 
+p.normal{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font color: black;
 
 }
